@@ -45,8 +45,7 @@ class PanasonicAC : public Component, public uart::UARTDevice, public climate::C
   void set_defrost_sensor(binary_sensor::BinarySensor *defrost_sensor);
 
   void set_current_temperature_sensor(sensor::Sensor *current_temperature_sensor);
-//  void set_current_temperature_offset(int8_t current_temperature_offset);
-  void set_current_temperature_offset(float current_temperature_offset);
+  void set_current_temperature_offset(int8_t current_temperature_offset);
 
 
   void setup() override;
